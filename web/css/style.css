@@ -1,0 +1,337 @@
+
+/*  header
+=======================*/
+
+header{
+    height: 100px;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.logo__text{
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+/*  intro
+=======================*/
+
+.container2{
+    background: url('../img/intro/top-bcg.jpg') center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    max-height: 800px;
+}
+
+.container2 span{
+    display: block;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 120px;
+}
+
+.container2 i{
+    display: block;
+    background-color: #15a4fa;
+    width: 600px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+
+.container2 .descr{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*  intro-btn
+=======================*/
+
+.btn{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    padding: 20px 35px;
+
+    transition-duration: .5s;
+}
+
+.btn a:hover{
+    background: #15a4fa;
+    font-size: 20px;
+    
+}
+/*  typo
+=======================*/
+
+.container3{
+    height: calc(100vh - 100px);
+    max-height: 260px;
+
+    margin-top: 80px;
+}
+
+.container3 span{
+    display: block;
+    text-align: center;
+
+    font-size: 40px;
+    color: #2d3950;
+}
+
+.container3 p{
+    text-align: center;
+
+    font-size: 20px;
+    color: #999999;
+    line-height: 10px;
+}
+
+/*  typo-icon
+=======================*/
+
+.container4{
+    height: calc(100vh - 100px);
+    max-height: 340px;
+    text-align: center;
+}
+
+.container4 .center{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon .img1{
+    background: url('../img/typo/Icon-1.png') center no-repeat;
+    height: 100px;
+}
+
+.icon .img2{
+    background: url('../img/typo/Icon-2.png') center no-repeat;
+    height: 100px;
+}
+
+.icon .img3{
+    background: url('../img/typo/Icon-3.png') center no-repeat;
+    height: 100px;
+}
+
+.icon span{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #2d3950;
+
+    margin-top: 30px;
+}
+
+.icon p{
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}
+
+/*  email
+=======================*/
+
+.container5{
+    background: url('../img/email/intro-user.jpg') center no-repeat;
+    height: calc(100vh - 100px);
+    max-height: 700px;
+}
+
+.email{
+    padding: 40px 0 100px 0;  
+    max-width: 555px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container5 span{
+    display: block;
+    text-align: center;
+}
+
+.container5 .tittle{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container5 .text{
+    font-size: 25px;
+    color: #999999;
+
+    margin-bottom: 50px;
+}
+
+.container5 input{
+    display: block;
+}
+
+.email__top input{
+    margin: 0 auto;
+}
+
+.email__top input{
+    background: none;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    
+    width: 555px;
+    height: 60px;
+
+    padding: 25px 20px;
+}
+
+input.email__place{
+    height: 160px;
+}
+
+input.email__email{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.email__down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 35px;
+}
+
+input[type="submit"]{
+    max-width: 140px;
+    width: 100%;
+    height: 45px;
+
+    background: none;
+    border: 1px #15a4fa solid;
+    border-radius: 3px;
+
+    font-size: 18px;
+    color: #fff;
+}
+
+input[type="submit"]:hover{
+    transition-duration: .5s;
+    background: #15a4fa;
+}
+
+/*  footer
+=======================*/
+
+.container6{
+    height: calc(100vh - 100px);
+    max-height: 90px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #f6f9f9;
+    padding: 25px 0;
+}
+
+.container6, span{
+    font-size: 15px;
+    color: #999999;
+}
+/* media
+==================*/
+
+@media(max-width:1200px){
+    .container3 p{
+        line-height: 20px;
+    }
+
+    .container .center{
+        width: 90%;
+    }
+
+    .container6 .center{
+        width: 90%;
+    }
+
+}
+
+@media(max-width:665px){ 
+    .container2 i{
+            width: 500px;
+    }
+
+    .container4{
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width:560px){ 
+    .container2 span{
+        font-size: 65px;
+    }
+
+    .container2 i{
+        width: 250px;
+    }
+
+    .email__top input{
+        width: 300px;
+        
+    }
+
+    .container5{
+        margin-top: 45px;
+    }
+
+    .container4{
+        margin-top: 130px;
+    }
+
+    .email__down{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+
+}
+
+@media(max-width:320px){ 
+    .container2 span{
+            font-size: 60px;
+    }
+
+    .container2 i{
+        width: 300px;
+    }
+
+    .email__top input{
+        width: 290px;
+    }
+
+}
+
+

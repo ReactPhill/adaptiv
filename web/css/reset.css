@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    background: #f6f9f9;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+/* containers
+=======================*/
+
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
